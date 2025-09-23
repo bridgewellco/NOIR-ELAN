@@ -78,7 +78,7 @@ body {
 /* Hero Section */
 .hero {
   position: relative;
-  background-image: url('images/homepage.png');
+  background-image: url('homepage.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
