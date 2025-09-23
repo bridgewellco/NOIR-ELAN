@@ -108,9 +108,23 @@ body {
 
 
 .hero h1 {
-  font-size: 2rem;
+  font-size: 2rem;        /* Base font size for mobile */
   margin-bottom: 20px;
-  
+  line-height: 1.2;
+}
+
+/* For tablets and larger screens */
+@media (min-width: 768px) {
+  .hero h1 {
+    font-size: 3rem;      /* Bigger font on bigger screens */
+  }
+}
+
+/* For very large desktops */
+@media (min-width: 1200px) {
+  .hero h1 {
+    font-size: 4rem;
+  }
 }
 
 
