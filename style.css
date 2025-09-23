@@ -112,34 +112,16 @@ body {
   box-sizing: border-box;
 }
 
-.hero h1 {
-  font-size: 1.0rem;           /* reasonable size for mobile */
-  margin: 0 auto 1rem;
-  max-width: 90vw;              /* prevents overflow on small screens */
-  line-height: 1.3;
-  word-break: break-word;
+
+
+
+.hero h1 { 
+  font-size: 2rem; margin-bottom: 20px; 
 }
 
-.hero p {
-  font-size: 1rem;
-  max-width: 90vw;
-  margin: 0 auto 2rem;
-  line-height: 1.5;
-  word-break: break-word;
-}
 
-/* Optional: Slight bump on larger screens */
-@media (min-width: 768px) {
-  .hero h1 {
-    font-size: 1.7rem;
-    max-width: 800px;
-  }
 
-  .hero p {
-    font-size: 1.125rem;
-    max-width: 600px;
-  }
-}
+
 
 .cta-button {
   background-color: #000;
